@@ -36,12 +36,12 @@ a{
   box-shadow:1px 1px 4px #333;
   border-radius:0 0 8px 8px;
 }
-.container {
+/* .container {
     width: 1000px;
     height: 100%;
     border: 2px solid black;
     box-sizing: border-box;
-}
+} */
 h1, h2, h3, p, li {
   color: yellow;
 }

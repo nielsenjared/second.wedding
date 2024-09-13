@@ -1,0 +1,20 @@
+html, body{
+	-webkit-font-smoothing:antialiased;
+	font-family: "Comic Sans MS", sans-serif;
+	line-height:1.4;
+	/* margin:0 auto; */
+	/* max-width:860px;
+	height: 100%; */
+}
+.bg-space{
+	background-image: url("https://i.imgur.com/SHZe50s.gif");
+}
+.bg-clouds{
+	/* background-image: url("./images/sparklecloud.gif"); */
+	background-image: url("./images/clouds.png");
+
+}
+.bg-grass{
+	background-image: url("./images/grass.png");
+
+}
