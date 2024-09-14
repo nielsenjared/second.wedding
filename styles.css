@@ -1,20 +1,130 @@
+@media (min-width: 768px)
+.container, .container-md, .container-sm {
+  max-width: 960px;
+}
+
+/* .container {
+	width: 960px;
+} */
+
 html, body{
-	-webkit-font-smoothing:antialiased;
-	font-family: "Comic Sans MS", sans-serif;
 	line-height:1.4;
 	/* margin:0 auto; */
 	/* max-width:860px;
 	height: 100%; */
 }
+
 .bg-space{
 	background-image: url("https://i.imgur.com/SHZe50s.gif");
 }
-.bg-clouds{
-	/* background-image: url("./images/sparklecloud.gif"); */
-	background-image: url("./images/clouds.png");
+
+.nav {
+	color: red;
+	font-color: red;
+	text-align: center;
+}
+
+.nav a {
+	color: red;
+	font-color: red;
+}
+
+.nav a:hover {
+	color: fuchsia;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	color: hotpink;
+	/* background-color: aquamarine; */
+	background-image: url("./images/sparklecloud.gif");
 
 }
-.bg-grass{
-	background-image: url("./images/grass.png");
 
+p {
+	font-family: comic sans ms, sans-serif;
+	/* color:antiquewhite; */
+	color: mistyrose;
+	background-image: url("./images/bg-heart.gif");
 }
+
+li {
+	color: tomato;
+}
+
+
+
+
+
+footer {
+	text-align: center;
+}
+
+/* @group Blink */
+.blink {
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+/* @end */
+
+/*marquee*/
+/* @keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.marquee-container {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    animation: marquee 5s linear infinite;
+}
+
+.marquee-content {
+    display: inline-block;
+    color: red;
+    font-size: xx-large;
+} */
+/* @end */
