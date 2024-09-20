@@ -2,6 +2,16 @@ li {
 	text-align: left;
 }
 
-body {
-	/* background-color: mistyrose; */
+.bg-light {
+	/* background-color: mistyrose !important; */
+}
+
+.btn {
+	background-color: hotpink;
+	border-color: lightpink;
+}
+
+.btn:hover {
+	background-color: pink;
+	border-color: lightpink;
 }
