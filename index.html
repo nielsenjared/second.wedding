@@ -5,167 +5,150 @@
     <meta charset="utf-8">
     <meta name="viewport">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body class="bg-space">
-    <div>
-        <!--  -->
-    </div>
-    <div class="container">
-        <!-- ATTN start -->
-        <div class="row">
-            <div class="col-2">
-                <img src="./images/beating-heart-01.gif" class="img-fluid"/>
-            </div>
-            <div class="col-8">
-                <h1>Jaime ❤️ Jared</h1>
-                <p class="blink">
-                    We're getting married!
+<body class="">
+    <!-- TODO NAV? -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light nav-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">J❤️J</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#rsvp">RSVP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lodging">Lodging</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gifts">Gifts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#baltimore">Baltimore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Our story</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- <div class="container">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#RSVP" class="nav-link active" aria-current="page">RSVP</a></li>
+          <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
+          <li class="nav-item"><a href="#lodging" class="nav-link">Lodging</a></li>
+          <li class="nav-item"><a href="#gifts" class="nav-link">Gifts</a></li>
+          <li class="nav-item"><a href="#baltimore" class="nav-link">Baltimore</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        </ul>
+      </header>
+    </div> -->
+    <main role="main">    
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div id="rsvp" class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4 img-fluid" src="./images/polaroid-960.png" alt="">
+            <h1 class="display-5 fw-bold text-body-emphasis">We're getting married!</h1>
+            <h2>Again!</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    This is a micro wedding and our guest list is very limited, so unfortunately that means no children and no +1s. We're sorry! But also, you made it. Please RSVP!
                 </p>
-                <div class="marquee-container">
-                    <div class="marquee-content">
-                        Again!            
-                    </div>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">RSVP</button>
                 </div>
             </div>
-            <div class="col-2">
-                <img src="./images/beating-heart-01.gif" class="img-fluid"/>
+        </div>
+  
+        <div id="schedule" class="container">
+          <h2 class="display-5 fw-bold text-body-emphasis text-center">Schedule</h2>
+          <!-- Schedule -->
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Friday 9/5/25 4-9pm</h3>
+              <p>We'll host an optional BYOB cookout at 1915 Fairbank Road</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Map &raquo;</a></p>
             </div>
+            <div class="col-md-4">
+              <h3>Saturday 9/6/25 6-10pm</h3>
+              <p>Join us at <a href="https://goodneighborshop.com/pages/visit-us">good neighbor</a> at 6pm for cocktail hour. The ceremony will begin at 7pm with food and dancing to follow. </p>
+              <p><a class="btn btn-secondary" href="#" role="button">Map &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Sunday 9/7/25 11am-1pm</h3>
+              <p>We'll be at good neighbor for anyone who wants to come by for coffee and/or food</p>
+            </div>
+          </div>
+        </div> <!-- /container -->
 
-        </div>
-        <!-- ATTN end -->
-        <!-- HERO start -->
-        <div class="row">
-            <div class="col-2">
-                <!-- <img src="./images/spinning-cupid-heart.gif" class="img-fluid"/> -->
-            </div>
-            <div class="col-8">
-                <img src="./images/polaroid-960.png" class="img-fluid"/>
-            </div>
-            <div class="col-2">
-                <!-- <img src="./images/spinning-cupid-heart.gif" class="img-fluid"/> -->
-            </div>
-        </div>
-        <!-- HERO end -->
-        <!-- NAV start -->
-        <div class="row nav justify-content-center">
-            <div class="col-2">
-                <img src="./images/spinning-cupid-heart.gif" class="img-fluid"/>
-            </div>
-            <div class="col-8">
-                <a href="#rsvp">RSVP</a> <span class="line">|</span>
-                <a href="#know">Everything you need to know</a> <span class="line">|</span>
-                <a href="#baltimore">Things to do in Baltimore (and beyond!)</a> <span class="line">|</span>
-                <a href="#about">Our story</a>
-            </div>
-            <div class="col-2">
-                <img src="./images/spinning-cupid-heart.gif" class="img-fluid"/>
-            </div>
-        </div>
-        <!-- NAV end -->
-        <!-- RSVP start -->
-        <div class="row" id="rsvp">
-            <div class="col-2">
-                <img src="./images/wedding-rings.gif" class="img-fluid mx-auto d-block"/>
-                <img src="./images/doves.gif" class="img-fluid mx-auto d-block"/>
-
-            </div>
-            <div class="col-8">
-                <h2>RSVP</h2>
-                <p>
-                    This is a micro wedding and our guest list is very limited, so unfortunately that means no children and no +1s. We're sorry! But also, you made it. <a href="#">Please fill this out to RSVP!</a>
+        <div id="lodging" class="px-4 py-5 my-5 text-center">
+            <h2 class="display-5 fw-bold text-body-emphasis">Lodging</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    We encourage folks to come for the weekend and get a Vrbo or Airbnb in the Hampden neighborhood or splurge on a hotel in Mt. Vernon. Only street parking is available at our home and the venue so if possible please take a ride share or walk up from the light rail station. 
                 </p>
             </div>
-            <div class="col-2">
-                <img src="./images/wedding-rings.gif" class="img-fluid mx-auto d-block"/>
-                <img src="./images/doves.gif" class="img-fluid mx-auto d-block"/>
+        </div>
 
+        <div id="gifts" class="px-4 py-5 my-5 text-center">
+            <h2 class="display-5 fw-bold text-body-emphasis">Gifts</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    We don't want any! We live in a small house brimming with outdoor gear and vintage store finds. Rather than gifts, help us get away from our stuff and contribute to our honeymoon.
+                </p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Kickstart our hearts</button>
+                </div>
             </div>
         </div>
-        <!-- RSVP end -->
-        <!-- KNOW start -->
-        <div class="row" id="know" >
-            <div class="col-2">
-                <img src="./images/left-arrow.gif" class="img-fluid mx-auto d-block"/>
-            </div>
-            <div class="col-8">
-                <h2>Everything you need to know</h2>
-                <p>
-                    Schedule: We're really excited to celebrate with everyone in the city we love! 
-                    
-                    Friday (9/5) at 4pm we'll host an optional BYOB cookout at 1915 Fairbank Road. 
-                    
-                    Saturday (9/6) please join us at <a href="https://goodneighborshop.com/pages/visit-us">good neighbor</a> at 6pm for cocktail hour. The ceremony will begin at 7pm with food and dancing to follow. 
-                    
-                    Sunday morning we'll be at good neighbor for anyone who wants to come by for coffee and/or food from 11-1pm. 
+
+        <div id="baltimore" class="px-4 py-5 my-5 text-center">
+            <h2 class="display-5 fw-bold text-body-emphasis">Welcome to America's greatest city!</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    We're excited for you to visit the city we love. These are a few of our favorite things: 
                 </p>
-                <p>
-                    Hot Takes: We encourage folks to come for the weekend and get a Vrbo or Airbnb in the Hampden neighborhood or splurge on a hotel in Mt. Vernon. Only street parking is available at our home and the venue so if possible please take a ride share or walk up from the light rail station. 
-                </p>
-            </div>
-            <div class="col-2">
-                <img src="./images/right-arrow.gif" class="img-fluid mx-auto d-block"/>
-            </div>
-        </div>
-        <!-- KNOW end -->   
-        <!-- BALT start -->
-        <div class="row" id="baltimore">
-            <div class="col-2">
-                <img src="./images/maryland-flag.gif" />
-            </div>
-            <div class="col-8">
-                <h2 id="baltimore">Things to do in Baltimore (and beyond!)</h2>
-                <img src="./images/under-construction-98.gif" class="mx-auto d-block"/>
-                <p>Welcome to America's greatest city!</p>
-                <ul>
-                    <li>Visit our favorite museum: <a href="https://www.avam.org/">https://www.avam.org/</a></li>
-                    <li>Visit our favorite aquarium: <a href="https://aqua.org/">https://aqua.org/</a></li>
-                    <li>Go see a baseball game</a>
-                        <li>Go see a show: <a href="https://theottobar.com/">https://theottobar.com/</a>
-                    <li>Drink the best beer while eating the best burger: <a href="https://www.nepenthebrewingco.com/">https://www.nepenthebrewingco.com/</a></li>
-                    <li>Drink the best coffee: <a href="https://www.ventcoffee.com/">https://www.ventcoffee.com/</a></li>
-                    <li>Drink a fancy a$$ cocktail: <a href="https://www.thebluebirdbaltimore.com/">https://www.thebluebirdbaltimore.com/</a></li>
-                    <li>Eat the best (and oldest) snowball in the U.S.A: <a href="https://maps.app.goo.gl/TKRoygy8UbDvJjhA8">The Peggy</a></li>
-                    <li>Dance at Save Your Souls on Friday night: <a href="https://www.lithuanianhall.com/friday-nights">https://www.lithuanianhall.com/friday-nights</a></li>
+                <ul class="test-start">
+                    <li>🎨<a href="https://www.avam.org/">Visit our favorite art museum</a></li>
+                    <li>🐬<a href="https://aqua.org/">Visit our favorite aquarium</a></li>
+                    <li>⚾<a href="https://www.mlb.com/orioles">Go see a baseball game</a></li>
+                    <li>🎸<a href="https://theottobar.com/">See a show at one of the best music venues in the country</a></li>
+                    <li>🍺<a href="https://www.nepenthebrewingco.com/">Drink the best beer while eating the best burger</a></li>
+                    <li>☕<a href="https://www.ventcoffee.com/">Drink the best coffee</a></li>
+                    <li>🍸<a href="https://www.thebluebirdbaltimore.com/">Drink a fancy a$$ cocktail</a></li>
+                    <li>🍧<a href="https://maps.app.goo.gl/TKRoygy8UbDvJjhA8">Eat the best (and oldest) snowball in the U.S.A</a></li>
+                    <li>🪩<a href="https://www.lithuanianhall.com/friday-nights">Dance at Save Your Souls on Friday night</a></li>
                 </ul>
-                <!-- <img src="./images/baseball.gif" class=""/>
-                <img src="./images/shark.gif" class=""/>
-                <img src="./images/can.gif" class=""/> -->
-
-            </div>
-            <div class="col-2">
-                <img src="./images/maryland-flag.gif" />
             </div>
         </div>
-        <!-- BALT end -->
-        <!-- ABOUT start -->
-        <div class="row" id="about">
-            <div class="col-2">
-                <img src="./images/dancing-baby.gif" class="mx-auto d-block"/>
-            </div>
-            <div class="col-8">
-                <h2>Our story</h2>
-                <p>
-                    It's the greatest love story ever told. Libraries, yoga, mistaken identity, a brazen amount of exposed flesh- and if you're coming to this you were a part of it in some way!
-                </p>  
-            </div>
-            <div class="col-2">
-                <img src="./images/dancing-baby.gif" class="mx-auto d-block"/>
+        <div id="about" class="px-4 py-5 my-5 text-center">
+            <h2 class="display-5 fw-bold text-body-emphasis">Our story</h2>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    It's the greatest love story ever told. Libraries, yoga, mistaken identity, a brazen amount of exposed flesh- and if you're coming to this you were a part of it in some way! 
+                </p>
             </div>
         </div>
-        <!-- ABOUT end -->
-        <footer class="row" id="footer">
-            <div class="col-2">
-            </div>
-            <div class="col-8">
-                <!-- <img src="https://i.imgur.com/i6hvJjx.gif"> -->
-                <p>Made with ❤️ by J & J <a href="https://github.com/nielsenjared/second.wedding">We committed!</a></p>
-                <!-- <span><img src="https://i.imgur.com/QkBkUkC.gif"></span> -->
-            </div>
-            <div class="col-2">
-            </div>
+    </main>
+    <div class="container">
+        <footer class="py-3 my-4">
+          <!-- <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          </ul> -->
+          <p class="text-center text-body-secondary">Made with ❤️ by J & J</p>
         </footer>
-    </div>
+      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
