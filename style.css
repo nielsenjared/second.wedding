@@ -12,6 +12,16 @@ li {
 }
 
 .btn:hover {
-	background-color: pink;
+	background-color: deeppink;
 	border-color: lightpink;
+}
+
+.btn:active {
+	background-color: deeppink;
+	border-color: lightpink;
+}
+
+.btn-primary:active {
+	background-color: pink !important;
+	border-color: lightpink !important;
 }
