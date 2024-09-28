@@ -25,3 +25,7 @@ li {
 	background-color: pink !important;
 	border-color: lightpink !important;
 }
+
+.my-5 {
+	margin-bottom: 0rem !important;
+}
